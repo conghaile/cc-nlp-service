@@ -1,0 +1,5 @@
+/testData.json
+model-best/
+/.env
+__pycache__/
+/database.ini
