@@ -18,7 +18,6 @@ class Thread:
                         if len(coin) > 1:
                             self.thread[post]['coins'].append(coin)
                     self.thread[post]['coins'] = [*set(self.thread[post]['coins'])]
-                    print(self.thread[post]['coins'])
 
                             # try:
                             #     realCoin = requests.get(f"http://localhost:5002/search/?coin={coin}").json()

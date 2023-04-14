@@ -3,3 +3,4 @@ model-best/
 /.env
 __pycache__/
 /database.ini
+venv/
